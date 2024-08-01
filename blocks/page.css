@@ -1,18 +1,18 @@
-.site {
-  background-color: #2a2c2f;
+.page {
+  background: #2a2c2f;
   font-family: "Inter", Arial, sans-serif;
   color: #fff;
   gap: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  .site {
+  .page {
     max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 720px) {
-  .site {
+  .page {
     max-width: 720px;
   }
 }
