@@ -2,17 +2,8 @@
   background: #2a2c2f;
   font-family: "Inter", Arial, sans-serif;
   color: #fff;
-  gap: 0;
-}
-
-@media screen and (max-width: 1024px) {
-  .page {
-    max-width: 1024px;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  .page {
-    max-width: 720px;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

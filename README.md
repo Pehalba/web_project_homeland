@@ -15,4 +15,4 @@ A Galeria de Arte Tripleten é um site no qual os membros da equipe podem compar
 As tecnologias empregadas incluem HTML e CSS, utilizando a metodologia BEM.
 
 GitHub Online:
-https://github.com/Pehalba/web_project_homeland?tab=readme-ov-file#tripleten-web_project_homeland
+https://pehalba.github.io/web_project_homeland/
