@@ -1,5 +1,42 @@
+.photo {
+  display: flex;
+  justify-content: center;
+}
 .photo__grid {
   display: grid;
-  grid-template-columns: 4;
-  grid-template-rows: 2;
+  max-width: 1184px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.photo__picture {
+  max-width: 284px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .photo__grid {
+    max-width: 720px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+  .photo__picture {
+    max-width: 352px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .photo__grid {
+    max-width: 320px;
+    grid-template-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+  .photo__picture {
+    max-width: 288px;
+    width: 100%;
+  }
 }
