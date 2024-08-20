@@ -98,7 +98,7 @@
   );
 }
 
-@media screen and( max-width:1024px) {
+@media screen and (max-width: 1024px) {
   .city__places {
     max-width: 720px;
     grid-gap: 48px 28px;
