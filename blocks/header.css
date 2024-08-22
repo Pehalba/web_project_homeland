@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }
 
 .header__logo {
@@ -13,11 +13,10 @@
 @media screen and (max-width: 1024px) {
   .header__logo {
     padding-top: 30px;
-    padding-inline: 257px;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 540px) {
   .header__logo {
     padding-top: 20px;
     padding-inline: 66px;
